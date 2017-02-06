@@ -122,12 +122,29 @@ You can check your configuration with:
 
 - If the team leader is happy with the pull request, he should merge it into the project.
 
+- The team member should switch back to the master branch and pull the latest changes:
+
+``` 
+git checkout master
+git pull origin master
+
+```
+
+
+
 
 **Optional if we have time**
 
 - Publish you website using gitHubPages 
 (More Here)[https://pages.github.com/]
 
+- Create a new repository on gitHub called <username>.github.io
+
+- Get the remote address and assign it to a remote called website. This is what my command will look like:
+
+-  `git remote add website  https://github.com/joeappleton18/joeappleton18.github.io.git`  
+
+>> this 
 
 
 
