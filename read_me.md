@@ -4,6 +4,7 @@ The purpose of this practical is to simulate how a collaborative git work flow w
 
 Using your local knowledge you are going to create a visit Rotterdam Website. 
 
+
 	
 #Setup
 
@@ -29,6 +30,16 @@ You can check your configuration with:
 ``git config --list``
 
 
+##Create a gitHub account
+
+If you don't have one already set up a gitHub account at [github.com](http://www.github.com). 
+
+- Use a real name, remember it's part of your professional profile
+
+
+
+
+
 ##Form Teams 
 
 
@@ -38,17 +49,15 @@ You can check your configuration with:
 
 - The downloaded zip file needs to be unzipped
 
-![assets](assets/fork.jpg)
-
 - Next, the team leader should navigate to the decompressed folder
 
   - Navigate on command line to where you want to work:  (using terminal or gitBash) 
 
-   			```
-   			cd   <directory name>    //to change directory 
-   			cd    ..      //to move up one directory 
-   			
-   			```  
+		```
+		cd   <directory name>    //to change directory 
+		cd    ..      //to move up one directory 
+		
+		```  
    	**or**
    			
    You can type `cd` then drag the folder into the terminal/gitBash window. 
@@ -61,7 +70,7 @@ You can check your configuration with:
     git commit -m "initial commit"
  ```  
 
-- The team leader should then create a new repository on `gitHub`. Git hub will provide instructions on how to add an exciting project. 
+- The team leader should then create a new repository on `gitHub`. GitHub hub will provide instructions on how to add an existing project. 
 
 - The team leader should grant access to the repository to everyone else in the team. This can be done from the repository settings  
 ![](assets/git_setting.jpg)
@@ -70,7 +79,7 @@ You can check your configuration with:
 - Everyone in the team should then clone the repository to their local computer. 
 
 - ![](assets/clone.jpg) 
->> get the repository address by prising the clone button 
+>> get the repository address by pressing the clone button 
 
   - Type `git clone <projectadress>` and press enter 
   - A new folder called `rotterdamtravelguide` should be created containing the starter project.
@@ -133,18 +142,31 @@ git pull origin master
 
 
 
-**Optional if we have time**
+**If we have time**
+
+Not only is gitHub great for collaborating, they'll also host your website for free!
 
 - Publish you website using gitHubPages 
-(More Here)[https://pages.github.com/]
 
-- Create a new repository on gitHub called <username>.github.io
+- Create a new repository on gitHub called `<username>.github.io`
+>> It must be exact, otherwise it won't work 
 
-- Get the remote address and assign it to a remote called website. This is what my command will look like:
+- Get the remote address of the new repository and assign it to a remote called website. This is what my command will look like:
 
 -  `git remote add website  https://github.com/joeappleton18/joeappleton18.github.io.git`  
 
->> this 
+
+- Checkout your project master branch 
+
+`git ceckout master`
+
+- Ensure you have the latest change 
+
+`git pull origin master`
+
+- Push your work to the repository that will host your website:
+
+`git push origin master`
 
 
 
