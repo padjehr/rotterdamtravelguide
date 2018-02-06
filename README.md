@@ -1,22 +1,22 @@
-#Git Collaboration 
+# Git Collaboration 
 
-The purpose of this practical is to simulate how a collaborative git work flow would operate in the real word.
+The purpose of this practical is to simulate how a collaborative git work flow would operate in the 'real word'.
 
 Using your local knowledge you are going to create a visit Rotterdam Website. 
 
 
 	
-#Setup
+# Setup
 
 We're going to use git to collaborate on this project. Firstly install git on your local computer:
 
 [instructions can be found here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
 
-Once install if you are on a mac open up terminal, on windows open up git bash.  
+Once installed if you are on a mac open up terminal, on windows open up git bash.  
 
 
-###Set up your user details 
+### Set up your user details 
 
 ```
 git config --global user.name "Your Name Comes Here"
@@ -30,17 +30,15 @@ You can check your configuration with:
 ``git config --list``
 
 
-##Create a gitHub account
+## Create a GitHub account
 
-If you don't have one already set up a gitHub account at [github.com](http://www.github.com). 
+If you don't have one already set up a GitHub account at [github.com](http://www.github.com). 
 
 - Use a real name, remember it's part of your professional profile
 
 
 
-
-
-##Form Teams 
+## Form Teams 
 
 
 - Nominate a team leader **you can form one group or use smaller sub groups**. Ideally the team leader would have used git and gitHub before
@@ -60,7 +58,7 @@ If you don't have one already set up a gitHub account at [github.com](http://www
 		```  
    	**or**
    			
-   You can type `cd` then drag the folder into the terminal/gitBash window. 
+  -  You can type `cd` then drag the folder into the terminal/gitBash window. 
    
  - Next, the team leader must create a new repository: 
 
@@ -120,14 +118,15 @@ If you don't have one already set up a gitHub account at [github.com](http://www
    
  #Pull requests 
    
- - When each team member feels they has finished their section they should push their features branch to the github origin  origin 
+ - When each team member feels they have finished their section they should push their features branch to the github origin  origin 
 
 
  ```
-   git push --set-upstream origin <the name of your branch>	
+   git push -u origin <the name of your branch>	
 ```
 
 - The team member should then locate their branch on gitHub and raise a pull request.
+
 
 - If the team leader is happy with the pull request, he should merge it into the project.
 
@@ -140,33 +139,23 @@ git pull origin master
 ```
 
 
+**If we have time, let's make a live website**
+
+- Not only is GitHub great for collaborating, they'll also host your website for free! 
+
+- Check out a new branch it must be called `gh-pages` 
+
+- Push your new branch to the origin `git push -u origin gh-pages`
+
+- That's it, your website should now be visible at:
+
+   - `https://<username>.github.io/<repository name`>
+
+   - Mine is `https://joeappleton18.github.io/rotterdamtravelguide`
 
 
-**If we have time**
-
-Not only is gitHub great for collaborating, they'll also host your website for free!
-
-- Publish you website using gitHubPages 
-
-- Create a new repository on gitHub called `<username>.github.io`
->> It must be exact, otherwise it won't work 
-
-- Get the remote address of the new repository and assign it to a remote called website. This is what my command will look like:
-
--  `git remote add website  https://github.com/joeappleton18/joeappleton18.github.io.git`  
 
 
-- Checkout your project master branch 
-
-`git ceckout master`
-
-- Ensure you have the latest change 
-
-`git pull origin master`
-
-- Push your work to the repository that will host your website:
-
-`git push origin master`
 
 
 
