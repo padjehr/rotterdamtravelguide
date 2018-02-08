@@ -43,38 +43,15 @@ If you don't have one already set up a GitHub account at [github.com](http://www
 
 - Nominate a team leader **you can form one group or use smaller sub groups**. Ideally the team leader would have used git and gitHub before
 
-- [The team leader needs to download my starter project](https://github.com/sirus21/rotterdamtravelguide/archive/master.zip)
+![](assets/fork.png)
 
-- The downloaded zip file needs to be unzipped
+- The team leader should fork the `rotterdamtravelguide` project. Doing this will copy the project across to their own GitHub account. 
 
-- Next, the team leader should navigate to the decompressed folder
-
-  - Navigate on command line to where you want to work:  (using terminal or gitBash) 
-
-		```
-		cd   <directory name>    //to change directory 
-		cd    ..      //to move up one directory 
-		
-		```  
-   	**or**
-   			
-  -  You can type `cd` then drag the folder into the terminal/gitBash window. 
-   
- - Next, the team leader must create a new repository: 
-
- ```
-    git init 
-    git add -A
-    git commit -m "initial commit"
- ```  
-
-- The team leader should then create a new repository on `gitHub`. GitHub hub will provide instructions on how to add an existing project. 
-
-- The team leader should grant access to the repository to everyone else in the team. This can be done from the repository settings  
+- The team leader should then grant access to the repository to everyone else in the team. This can be done from the repository settings  
 ![](assets/git_setting.jpg)
 
 
-- Everyone in the team should then clone the repository to their local computer. 
+- Everyone in the team should then clone the team leaders repository to their local computer. 
 
 - ![](assets/clone.jpg) 
 >> get the repository address by pressing the clone button 
@@ -85,7 +62,7 @@ If you don't have one already set up a GitHub account at [github.com](http://www
   
 
  
- #The Task 
+ # The Task 
  
   
  - As a team pick out one attraction each to write about. This can be anything that takes their fancy. 
@@ -116,7 +93,7 @@ If you don't have one already set up a GitHub account at [github.com](http://www
    ```
    >> resets the head to the last commit 
    
- #Pull requests 
+ # Pull requests 
    
  - When each team member feels they have finished their section they should push their features branch to the github origin  origin 
 
